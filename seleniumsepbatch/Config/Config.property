@@ -1,0 +1,4 @@
+browser=Chrome
+stagingURL=http://www.facebook.com
+qaUrl=http://www.gmail.com
+prodURL=http://www.twitter.com

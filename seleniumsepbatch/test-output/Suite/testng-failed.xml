@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="FFTest(failed)" parallel="tests">
+    <parameter name="ApplicationURL" value="http://www.google.com"/>
+    <parameter name="BrowserType" value="IE"/>
+    <classes>
+      <class name="testngdemos.LoginOrangeHRM2">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testngdemos.LoginOrangeHRM2 -->
+    </classes>
+  </test> <!-- FFTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

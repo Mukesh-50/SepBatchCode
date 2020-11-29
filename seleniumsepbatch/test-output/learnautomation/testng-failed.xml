@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [learnautomation]">
+  <test thread-count="5" name="smokescenario(failed)">
+    <classes>
+      <class name="testngdemos.MyFirstTestNG3">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- testngdemos.MyFirstTestNG3 -->
+      <class name="testngdemos.MyFirstTestNG4">
+        <methods>
+          <include name="test2"/>
+          <include name="test7"/>
+          <include name="test4"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- testngdemos.MyFirstTestNG4 -->
+    </classes>
+  </test> <!-- smokescenario(failed) -->
+</suite> <!-- Failed suite [learnautomation] -->
